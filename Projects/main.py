@@ -1,13 +1,14 @@
 # -*- coding: UTF-8 -*-
 
-import sys
-encode = sys.getdefaultencoding()
-print(encode)
-
 from init import initialize_program
 
 def main():
     initialize_program()
+    
+    import sys
+    encode = sys.getdefaultencoding()
+    print(encode)
+    print("Python 버전:", sys.version)
 
 
 

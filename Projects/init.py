@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+
+
 def initialize_program():
     program_name = "My Program"
     developer_name = "Your Name"
