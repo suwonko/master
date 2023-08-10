@@ -34,7 +34,7 @@ def initialize_program():
 
     # 로깅 설정
     import logging
-    logging.basicConfig(filename='app.log', level=logging.DEBUG)
+    logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
     logging.debug('로깅 설정을 완료하였습니다.')
 
     print("프로그램 초기화가 완료되었습니다.")
